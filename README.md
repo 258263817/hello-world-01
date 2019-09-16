@@ -19,3 +19,8 @@ plt.title('CHINA\n' + note)
 plt.show()
 # data from:
 # https://databank.worldbank.org/data/reports.aspx?source=2&series=SP.DYN.LE00.IN
+from IPython.core.interactiveshell import InteractiveShell
+InteractiveShell.ast_node_interactivity = "all"
+# 请暂时忽略以上两行……
+1 == 2
+1 != 2
